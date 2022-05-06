@@ -1,0 +1,439 @@
+BODY {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 10pt;
+  font-family: "times new roman", arial, helvetica, sans-serif;
+  background-repeat: repeat-x;
+}
+P,
+LI,
+TABLE,
+.normal {
+  color: #000000;
+  font-size: 10pt;
+  font-family: arial, "times new roman", helvetica, sans-serif;
+}
+a {
+  color: #2483b3;
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+}
+.cookieCrumb {
+  color: #666666;
+  font-size: 8pt;
+  font-family: arial, "times new roman", helvetica, sans-serif;
+}
+.sectionTitle {
+  font-family: Verdana, arial, "times new roman", Helvetica, sans-serif;
+  color: #000099;
+  font-size: 12pt;
+  background-color: #ffffff;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+.menuItem,
+A.menuItem {
+  font-size: 10pt;
+  font-family: arial, "times new roman", helvetica, sans-serif;
+  color: #000000;
+}
+.navleft,
+A.navleft {
+  color: #000066;
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.navleftSub,
+A.navleftSub {
+  color: #000066;
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+.navHigh,
+A.navHigh {
+  border: 0px solid yellow;
+  color: black;
+  padding: 2px;
+  font-family: Verdana, arial, "times new roman", Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+.navtop,
+A.navtop {
+  color: #000099;
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 10pt;
+  text-decoration: none;
+}
+.deSummaryHeadline {
+  color: #000000;
+  font-weight: bold;
+}
+.deHeadline {
+  color: #000000;
+  font-size: 12pt;
+  font-weight: bold;
+}
+.search {
+  font-family: arial, "times new roman", helvetica, sans-serif;
+  color: #000099;
+  font-size: 10pt;
+  font-weight: bold;
+}
+.box,
+.sidebarHeader {
+  background-color: #000099;
+  font-size: 11pt;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: arial, "times new roman", helvetica, sans-serif;
+}
+.sidebar {
+  color: #000000;
+  font-size: 10pt;
+  font-family: arial, "times new roman", helvetica, sans-serif;
+  background: #dddddd;
+}
+a:hover {
+  color: #990000;
+  text-decoration: underline;
+}
+.subtext {
+  color: #000000;
+  font-size: 8pt;
+  font-family: arial, "times new roman", helvetica, sans-serif;
+}
+/* ----------------------------- INFOSIGHT CSS-------------------------- */
+/* ------------------------- MAIN CONTENT ELEMENTS ------------------------- */
+.PageHeader {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #000000;
+}
+.newsletterHeader {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #942228;
+}
+.newsletterSubHeader {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #942228;
+}
+.newsletterHeader_Blue {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color: #0d3f64;
+}
+/* ----------------------------- REGIONS ----------------------------------- */
+.subhead {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+li.regions_relatedlink_list,
+ul.regions_relatedlink_list {
+  list-style-type: disc;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+/* ------------------------------------------------------ */
+
+/* CONTENT: SITEMAP STYLES */
+.content_sitemap {
+}
+/* CONTENT: RATES STYLES */
+.content_rates_category1 {
+  font-size: 21px;
+  color: #996600;
+}
+.content_rates_category2 {
+  font-size: 21px;
+  color: #996600;
+}
+.content_rates_notes {
+}
+.content_rates_table {
+  width: 100%;
+  border-left: 1px solid #daa520;
+  border-top: 1px solid #daa520;
+}
+.content_rates_table_title {
+  background-color: #a0522d;
+  color: White;
+  font-size: 21px;
+  font-weight: bold;
+}
+.content_rates_table_effectivedate {
+  background-color: #ffffc4;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+.content_rates_table_notes {
+  background-color: #ffffc4;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+.content_rates_table_fields {
+  background-color: #ffffc4;
+  font-weight: bold;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+.content_rates_table_row1 {
+  background-color: #ffffdd;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+.content_rates_table_row2 {
+  background-color: #ffffc4;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+.content_rates_table_row_highlight {
+  background-color: #daa520;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+/* CONTENT: BANNER STYLES */
+.content_banner {
+}
+/* CONTENT: POLL STYLES */
+.content_poll_title {
+  font-weight: bold;
+}
+.content_poll_option {
+}
+/* CONTENT: ARTICLE STYLES */
+.content_article_header {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+.content_article_list {
+}
+.content_article_list LI {
+  margin-bottom: 10px;
+}
+/* CONTENT: CALENDAR STYLES */
+.content_calendar_header {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+.content_calendar_list {
+}
+.content_calendar_table {
+  border-right: 1px solid #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+}
+.content_calendar_table_headercell {
+  background: #b9b9b9;
+  text-align: center;
+}
+.content_calendar_table_cell {
+  border-left: 1px solid #b9b9b9;
+  border-top: 1px solid #b9b9b9;
+  font-size: 8pt;
+}
+.content_calendar_table_selectedcell {
+  background: #e6e6e6;
+}
+/* ------------------------------------------------------ */
+
+.regions_header {
+  font-size: 14px;
+  color: #003333;
+  font-weight: bold;
+}
+/* REGIONS: SITEMAP STYLES */
+.regions_sitemap {
+}
+/* REGIONS: RATES STYLES */
+.regions_rates_category1 {
+  font-size: 21px;
+  color: #996600;
+}
+.regions_rates_category2 {
+  font-size: 21px;
+  color: #996600;
+}
+.regions_rates_notes {
+}
+.regions_rates_table {
+  width: 100%;
+  border-left: 1px solid #daa520;
+  border-top: 1px solid #daa520;
+}
+.regions_rates_table_title {
+  background-color: #a0522d;
+  color: White;
+  font-size: 21px;
+  font-weight: bold;
+}
+.regions_rates_table_effectivedate {
+  background-color: #ffffc4;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+.regions_rates_table_notes {
+  background-color: #ffffc4;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+.regions_rates_table_fields {
+  background-color: #ffffc4;
+  font-weight: bold;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+.regions_rates_table_row1 {
+  background-color: #ffffdd;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+.regions_rates_table_row2 {
+  background-color: #ffffc4;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+.regions_rates_table_row_highlight {
+  background-color: #daa520;
+  border-right: 1px solid #daa520;
+  border-bottom: 1px solid #daa520;
+}
+/* REGIONS: BANNER STYLES */
+.regions_banner {
+}
+/* REGIONS: RELATED LINKS STYLES */
+.regions_relatedlink_list {
+}
+/* REGIONS: POLL STYLES */
+.regions_poll_title {
+  font-weight: bold;
+}
+.regions_poll_option {
+}
+/* REGIONS: ARTICLE STYLES */
+.regions_articles_list {
+}
+/* REGIONS: CALENDAR STYLES */
+.regions_calendar_list {
+}
+.regions_calendar_table {
+  border-right: 1px solid #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+}
+.regions_calendar_table_headercell {
+  background: #b9b9b9;
+  text-align: center;
+}
+.regions_calendar_table_cell {
+  border-left: 1px solid #b9b9b9;
+  border-top: 1px solid #b9b9b9;
+  font-size: 8pt;
+}
+.regions_calendar_table_selectedcell {
+  background: #e6e6e6;
+}
+/* ------------------------- SIDE BAR ELEMENTS ------------------------- */
+.SideLinksMain {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+a.SideLinksMain:link {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.SideLinksMain:visited {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.SideLinksMain:hover {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #cccccc;
+}
+.SideLinksSub {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: normal;
+}
+a.SideLinksSub:link {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.SideLinksSub:visited {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff;
+}
+a.SideLinksSub:hover {
+  font-family: arial, "times new roman", Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #cccccc;
+}
+/* ------------------------------------------------------ */
+
+/* ------------------------------------------------------ */
+a.helpLink,
+a.helpLink:visited,
+a.helpLink:link,
+a.helpLink:active {
+  color: #c00000;
+  text-decoration: none;
+  border-bottom: 1px dashed Red;
+  cursor: help;
+}
+a.helpLink:hover {
+  color: Blue;
+  text-decoration: none;
+  border-bottom: 1px dashed Blue;
+}
+.help-tooltip {
+  position: absolute;
+  width: 250px;
+  border: 1px Solid WindowFrame;
+  background: Infobackground;
+  color: InfoText;
+  font: StatusBar;
+  font: Status-Bar;
+  padding: 3px;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color="#777777", Direction=135, Strength=3);
+  z-index: 10000;
+}
+.help-tooltip a,
+.help-tooltip a:hover {
+  color: blue !important;
+  background: none;
+}

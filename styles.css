@@ -1,0 +1,22 @@
+/* table {
+  width: 800px;
+  border: 5px solid #000;
+} */
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sec1-wrapper {
+  width: 466px;
+  height: 626px;
+}
+
+.sec1-header {
+  color: #c55911;
+}
+
+td{
+    border: solid 1px black;
+}

@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="UTF-8">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geo&display=swap" rel="stylesheet">
+
+<style type="text/css">
+BODY {
+	COLOR: #000000;
+	BACKGROUND-COLOR: #FFFFFF;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: 'times new roman', arial,  helvetica, sans-serif;
+	background-repeat: repeat-x;
+}
+P, LI, TABLE, .normal {
+	COLOR: #000000;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, 'times new roman', helvetica, sans-serif;
+}
+a {
+	color: #2483b3;
+	text-decoration: underline;
+}
+	img {
+    max-width: 100%;
+}
+.cookieCrumb {
+	COLOR: #666666;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: arial, 'times new roman', helvetica, sans-serif;
+}
+.sectionTitle {
+	FONT-FAMILY: Verdana, arial, 'times new roman', Helvetica, sans-serif;
+	COLOR: #000099;
+	FONT-SIZE: 12pt;
+	background-color: #FFFFFF;
+	font-weight: bold;
+	PADDING-LEFT: 5px;
+	PADDING-BOTTOM: 2px;
+	PADDING-TOP: 2px;
+}
+.menuItem, A.menuItem {
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, 'times new roman', helvetica, sans-serif;
+	COLOR: #000000;
+}
+.navleft, A.navleft {
+	color: #000066;
+	font-family: arial, 'times new roman', Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navleftSub, A.navleftSub {
+	color: #000066;
+	font-family: arial, 'times new roman', Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+.navHigh, A.navHigh {
+	border: 0px solid yellow;
+ color: black;  padding: 2px;
+	font-family: Verdana, arial, 'times new roman', Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+}
+.navtop, A.navtop {
+	color: #000099;
+	font-family: arial, 'times new roman', Helvetica, sans-serif;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.deSummaryHeadline {
+	COLOR: #000000;
+	FONT-WEIGHT: bold;
+}
+.deHeadline {
+	COLOR: #000000;
+	FONT-SIZE: 12pt;
+	FONT-WEIGHT: bold;
+}
+.search {
+	FONT-FAMILY: arial, 'times new roman', helvetica, sans-serif;
+	COLOR: #000099;
+	FONT-SIZE: 10pt;
+	FONT-WEIGHT: bold;
+}
+.box, .sidebarHeader {
+	background-color: #000099;
+	FONT-SIZE: 11pt;
+	COLOR: #FFFFFF;
+	font-weight: bold;
+	FONT-FAMILY: arial, 'times new roman', helvetica, sans-serif;
+}
+.sidebar {
+	COLOR: #000000;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: arial, 'times new roman', helvetica, sans-serif;
+	background: #DDDDDD;
+}
+a:hover {
+	color: #990000;
+	text-decoration: underline;
+}
+.subtext {
+	COLOR: #000000;
+	FONT-SIZE: 8pt;
+	FONT-FAMILY: arial, 'times new roman', helvetica, sans-serif;
+}
+/* ----------------------------- INFOSIGHT CSS-------------------------- */
+/* ------------------------- MAIN CONTENT ELEMENTS ------------------------- */
+.PageHeader {
+	font-family: arial, 'times new roman', Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	color: #000000;
+}
+.newsletterHeader {
+	font-family: arial, 'times new roman', Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	color: #942228;
+}
+.newsletterSubHeader {
+	font-family: arial, 'times new roman', Helvetica, sans-serif;
+	font-weight: bold;
+	color: #942228;
+}
+.newsletterHeader_Blue {
+	font-family: arial, 'times new roman', Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: bold;
+	color: #0D3F64;
+}
+/* ----------------------------- REGIONS ----------------------------------- */
+.subhead {
+	font-family : arial, 'times new roman', Helvetica, sans-serif;
+	font-size : 14px;
+	font-weight : bold;
+	color: #000000;
+}
+li.regions_relatedlink_list, ul.regions_relatedlink_list {
+	list-style-type: disc;
+	margin-left: 10px;
+	padding-left: 5px;
+}
+/* ------------------------------------------------------ */
+
+/* CONTENT: SITEMAP STYLES */
+.content_sitemap {
+}
+/* CONTENT: RATES STYLES */
+.content_rates_category1 {
+	font-size: 21px;
+	color: #996600;
+}
+.content_rates_category2 {
+	font-size: 21px;
+	color: #996600;
+}
+.content_rates_notes {
+}
+.content_rates_table {
+	width: 100%;
+	border-left: 1px solid #DAA520;
+	border-top: 1px solid #DAA520;
+}
+.content_rates_table_title {
+	background-color: #A0522D;
+	color: White;
+	font-size: 21px;
+	font-weight: bold;
+}
+.content_rates_table_effectivedate {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_notes {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_fields {
+	background-color: #FFFFC4;
+	font-weight: bold;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row1 {
+	background-color: #FFFFDD;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row2 {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.content_rates_table_row_highlight {
+	background-color: #DAA520;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+/* CONTENT: BANNER STYLES */
+.content_banner {
+}
+/* CONTENT: POLL STYLES */
+.content_poll_title {
+	font-weight: bold;
+}
+.content_poll_option {
+}
+/* CONTENT: ARTICLE STYLES */
+.content_article_header {
+	font-family: arial, 'times new roman', Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.content_article_list {
+}
+.content_article_list LI {
+	margin-bottom: 10px;
+}
+/* CONTENT: CALENDAR STYLES */
+.content_calendar_header {
+	font-family: arial, 'times new roman', Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.content_calendar_list {
+}
+.content_calendar_table {
+	border-right: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+}
+.content_calendar_table_headercell {
+	background: #B9B9B9;
+	text-align: center;
+}
+.content_calendar_table_cell {
+	border-left: 1px solid #B9B9B9;
+	border-top: 1px solid #B9B9B9;
+	font-size: 8pt;
+}
+.content_calendar_table_selectedcell {
+	background: #E6E6E6;
+}
+/* ------------------------------------------------------ */
+
+.regions_header {
+	font-size: 14px;
+	color: #003333;
+	font-weight: bold;
+}
+/* REGIONS: SITEMAP STYLES */
+.regions_sitemap {
+}
+/* REGIONS: RATES STYLES */
+.regions_rates_category1 {
+	font-size: 21px;
+	color: #996600;
+}
+.regions_rates_category2 {
+	font-size: 21px;
+	color: #996600;
+}
+.regions_rates_notes {
+}
+.regions_rates_table {
+	width: 100%;
+	border-left: 1px solid #DAA520;
+	border-top: 1px solid #DAA520;
+}
+.regions_rates_table_title {
+	background-color: #A0522D;
+	color: White;
+	font-size: 21px;
+	font-weight: bold;
+}
+.regions_rates_table_effectivedate {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_notes {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_fields {
+	background-color: #FFFFC4;
+	font-weight: bold;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row1 {
+	background-color: #FFFFDD;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row2 {
+	background-color: #FFFFC4;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+.regions_rates_table_row_highlight {
+	background-color: #DAA520;
+	border-right: 1px solid #DAA520;
+	border-bottom: 1px solid #DAA520;
+}
+/* REGIONS: BANNER STYLES */
+.regions_banner {
+}
+/* REGIONS: RELATED LINKS STYLES */
+.regions_relatedlink_list {
+}
+/* REGIONS: POLL STYLES */
+.regions_poll_title {
+	font-weight: bold;
+}
+.regions_poll_option {
+}
+/* REGIONS: ARTICLE STYLES */
+.regions_articles_list {
+}
+/* REGIONS: CALENDAR STYLES */
+.regions_calendar_list {
+}
+.regions_calendar_table {
+	border-right: 1px solid #B9B9B9;
+	border-bottom: 1px solid #B9B9B9;
+}
+.regions_calendar_table_headercell {
+	background: #B9B9B9;
+	text-align: center;
+}
+.regions_calendar_table_cell {
+	border-left: 1px solid #B9B9B9;
+	border-top: 1px solid #B9B9B9;
+	font-size: 8pt;
+}
+.regions_calendar_table_selectedcell {
+	background: #E6E6E6;
+}
+/* ------------------------- SIDE BAR ELEMENTS ------------------------- */
+.SideLinksMain {
+ font-family: arial, 'times new roman', Helvetica, sans-serif;  font-size: 12px;
+	color : #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+a.SideLinksMain:link {
+ font-family: arial, 'times new roman', Helvetica, sans-serif;  font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksMain:visited {
+ font-family : arial, 'times new roman', Helvetica, sans-serif;  font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color : #ffffff;
+
+}
+a.SideLinksMain:hover {
+ font-family : arial, 'times new roman', Helvetica, sans-serif;  font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #cccccc;
+}
+.SideLinksSub {
+ font-family: arial, 'times new roman', Helvetica, sans-serif;  font-size: 14px;
+	color : #ffffff;
+	text-decoration: none;
+	font-weight: normal;
+}
+a.SideLinksSub:link {
+ font-family: arial, 'times new roman', Helvetica, sans-serif;  font-size: 14px;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksSub:visited {
+ font-family : arial, 'times new roman', Helvetica, sans-serif;  font-size: 14px;
+	text-decoration: none;
+	color : #ffffff;
+}
+a.SideLinksSub:hover {
+ font-family : arial, 'times new roman', Helvetica, sans-serif;  font-size: 14px;
+	text-decoration: underline;
+	color: #cccccc;
+}
+/* ------------------------------------------------------ */
+
+
+/* ------------------------------------------------------ */
+a.helpLink, a.helpLink:visited, a.helpLink:link, a.helpLink:active {
+	color: #c00000;
+	text-decoration: none;
+	border-bottom: 1px dashed Red;
+	cursor: help;
+}
+a.helpLink:hover {
+	color: Blue;
+	text-decoration: none;
+	border-bottom: 1px dashed Blue;
+}
+.help-tooltip {
+	position: absolute;
+	width: 250px;
+	border: 1px Solid WindowFrame;
+	background: Infobackground;
+	color: InfoText;
+	font: StatusBar;
+	font: Status-Bar;
+	padding: 3px;
+ filter:		progid:DXImageTransform.Microsoft.Shadow(color="#777777", Direction=135, Strength=3);
+	z-index: 10000;
+}
+.help-tooltip a, .help-tooltip a:hover {
+	color: blue !important;
+	background: none;
+}
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12265204-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-12265204-1');
+</script>
+
+</head>
+
+<body>
+<!--  Do NOT delete previous line if you want to get statistics on the number of opened emails -->
+<table align="center" style="border: none; color:#000000; padding:0px" width="800">
+  <tbody>
+    <tr>
+      <td>
+		  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: -20px;">
+        <tbody>
+		  <tr>
+                  <td align="center" style="padding: 15px 0 15px 0" class=""><div class="code_block">
+                    <div class="code_block_center">
+                      <div class="code_block_indiv_content">
+                        <table width="100%">
+                          <tbody>
+                            <tr>
+                              <td align="left" width="45%" class=""><img alt="InfoSight" height="54" src="https://lscu.coop/images/infosight/logosight.png" width=""></td>
+                              <td width="10%" class="">&nbsp;</td>
+                              <td align="right" width="45%" class="">February 9, 2022</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div></td>
+                </tr>
+			  </tbody>
+		  </table>
+		  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: -40px;">
+        <tbody>
+          <tr>
+            <td align="center"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tbody>
+                <tr>
+					<td style="font-family: 'Geo'; vertical-align: top;">
+						<h1 style="font-size: 52px; line-height: 66px; font-family: 'Geo', sans-serif;">
+							<strong>The <br>
+							Compliance <br>
+							Corner <br>
+							Newsletter</strong>
+						</h1>
+					</td>
+					<td pardot-data="" align="right" class="" style=""><div class="code_block">
+					  <img src="https://lscu.coop/images/infosight/orangeHouse.png" style="padding-right: 30px;">
+					</td>
+                </tr>
+              </tbody>
+            </table></td>
+          </tr>
+        </tbody>
+      </table>
+        <table border="0" cellpadding="3" width="100%">
+          <tbody>
+			  <tr>
+<!-------------------------- LEFT COLUMN WITH TEXT------------------------------>
+				  <td style="vertical-align: top; width: 60%; padding-top: 40px;">
+					  <p style="color: #000; font-size: 14px; line-height: 18px;"><strong style="color: #c55911; font-size: 21px;">Credit Unions Encouraged to Implement Measures to Protect Against Possible Threats</strong><br>
+					  The U.S. Department of Homeland Security’s Cybersecurity and Infrastructure Security Agency (CISA) recently issued two alerts addressing risks <a href="https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flnks.gd%2Fl%2FeyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjAxMjguNTI1NTI3MTEiLCJ1cmwiOiJodHRwczovL3d3dy5jaXNhLmdvdi91c2NlcnQvc2l0ZXMvZGVmYXVsdC9maWxlcy9wdWJsaWNhdGlvbnMvQUEyMi0wMTFBX0pvaW50X0NTQV9VbmRlcnN0YW5kaW5nX2FuZF9NaXRpZ2F0aW5nJTIwX1J1c3NpYW5fQ3liZXJfVGhyZWF0c190b19VU19Dcml0aWNhbF9JbmZyYXN0cnVjdHVyZV9UTFAtV0hJVEVfMDEtMTAtMjJfdjEucGRmP3V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1OQ1VBZ292ZGVsaXZlcnkifQ.yF6yI9j58GCqWoz2pQYGIdH1WAwuXJbDKV8sh7fBJfU%2Fs%2F1807380761%2Fbr%2F125827683194-l&data=04%7C01%7Ckela.wingard%40lscu.coop%7Cf66ce22807ab4f95dbec08d9e2a6f75c%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637790029021605480%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=X5mnu2EWf6WkT60gwekNXZ7we7hH1jnYs7B9F5LE2xk%3D&reserved=0" target="_blank">from Russian State-Sponsored cyber threats</a> and highlighting recent malicious cyber incidents suffered by public and private entities in <a href="https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flnks.gd%2Fl%2FeyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDEsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjAxMjguNTI1NTI3MTEiLCJ1cmwiOiJodHRwczovL3d3dy5jaXNhLmdvdi9zaXRlcy9kZWZhdWx0L2ZpbGVzL3B1YmxpY2F0aW9ucy9DSVNBX0luc2lnaHRzLUltcGxlbWVudF9DeWJlcnNlY3VyaXR5X01lYXN1cmVzX05vd190b19Qcm90ZWN0X0FnYWluc3RfQ3JpdGljYWxfVGhyZWF0c181MDhDLnBkZj91dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9TkNVQWdvdmRlbGl2ZXJ5In0.wJuJyuZnqSsTIQezKPjZpj4py-iN2-6ELIgS7z4ZX48%2Fs%2F1807380761%2Fbr%2F125827683194-l&data=04%7C01%7Ckela.wingard%40lscu.coop%7Cf66ce22807ab4f95dbec08d9e2a6f75c%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637790029021605480%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=lRg2js%2B8lxunkzD27FeFZfxnjOamy7pXsVD3zZVPFKM%3D&reserved=0" target="_blank">Ukraine</a>. Credit unions are included as potential targets to U.S. infrastructure.<br><br>
+
+Given current geopolitical events, the NCUA, along with CISA, the Federal Bureau of Investigation, and the National Security Agency encourage credit unions and their cybersecurity teams nationwide to adopt a heightened state of awareness and to conduct proactive threat hunting. In addition, COVID-related supply chain disruptions may require management to reevaluate previously held assumptions for business continuity and disaster recovery plans.<br><br>
+						  
+<em>What should your next steps be?</em><br><br>
+						  
+Credit union leadership should be aware of critical cyber risks and take urgent steps to reduce the likelihood and impact of a potentially damaging compromise.<br><br>
+						  
+We highly recommend that you review the two CISA issuances linked above and act on the applicable recommendations. It is crucial that your credit union does its part to improve its resilience, reducing the risk of compromise or severe business degradation.<br><br>
+						  
+The NCUA recently created the <a href="https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flnks.gd%2Fl%2FeyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDIsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjAxMjguNTI1NTI3MTEiLCJ1cmwiOiJodHRwczovL3d3dy5uY3VhLmdvdi9yZWd1bGF0aW9uLXN1cGVydmlzaW9uL3JlZ3VsYXRvcnktY29tcGxpYW5jZS1yZXNvdXJjZXMvY3liZXJzZWN1cml0eS1yZXNvdXJjZXMvYWNldC1hbmQtb3RoZXItYXNzZXNzbWVudC10b29scz91dG1fbWVkaXVtPWVtYWlsJnV0bV9zb3VyY2U9TkNVQWdvdmRlbGl2ZXJ5In0.S0GKvz4KazFFNTM4JwI6tgz8hW7_KmH5sLMrPC13RiA%2Fs%2F1807380761%2Fbr%2F125827683194-l&data=04%7C01%7Ckela.wingard%40lscu.coop%7Cf66ce22807ab4f95dbec08d9e2a6f75c%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637790029021605480%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=aZHS06%2FDgYGNxONEY5zzkSp3m6uK1jJ1XuFWmyCGJ1I%3D&reserved=0" target="_blank">Automated Cybersecurity Evaluation Toolbox (ACET)</a> for federally insured credit unions to evaluate their cybersecurity posture. For more information, please visit the <a href="https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flnks.gd%2Fl%2FeyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDMsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjAxMjguNTI1NTI3MTEiLCJ1cmwiOiJodHRwczovL3d3dy5uY3VhLmdvdi9yZWd1bGF0aW9uLXN1cGVydmlzaW9uL3JlZ3VsYXRvcnktY29tcGxpYW5jZS1yZXNvdXJjZXMvY3liZXJzZWN1cml0eS1yZXNvdXJjZXM_dXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPU5DVUFnb3ZkZWxpdmVyeSJ9.R5wEOB3ECJmtY20Pc4e_ha9AJZNx068Fcge8XHcMoU4%2Fs%2F1807380761%2Fbr%2F125827683194-l&data=04%7C01%7Ckela.wingard%40lscu.coop%7Cf66ce22807ab4f95dbec08d9e2a6f75c%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637790029021605480%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=DpDUZbTkzXz0zSoqSezK1375y1xJg%2BjKIn%2BBbpoXU%2F0%3D&reserved=0" target="_blank">NCUA’s cybersecurity resources website</a>
+</p>
+					  
+						  
+				  </td>
+<!-------------------------- END LEFT COLUMN WITH TEXT------------------------------>
+<!---------------------------------------------------------------------------------->
+				 
+<!-------------------------- RIGHT COLUMN WITH LOCKERS------------------------------>				  
+				  <td style="border: 2px solid #c55a11; background: #2e75b5; color: black; vertical-align: top; padding: 5px;">
+					  <img src="https://lscu.coop/images/infosight/lockers.jpg" style="width: 100%;">
+					  <h3 style="color: #c00000;">Training and Webinars</h3>
+					  <p><strong>Free ComplySight Webinar #2 – Advanced Use</strong><br>
+On February 22, 2022, at 2:00 pm EST, Sharon Murphy will lead a one-hour webinar teaching attendees how to use some advanced features of ComplySight.  This free session will include best practices for completing assignments, documenting compliance, creating and assigning action items. The session will also cover the different types of action items and how to edit and resolve them. Attendees will also learn how to generate, follow up and share reports as needed.</p>
+					  
+					  <p>To register for this event, click <a href="" style="color: #c00000;">here</a>.</p>
+					  
+					  <p>To share topics that you would like to see your Compliance & Regulatory team address in 2022, please email <a style="color: #c00000;" href="mailto:kela.wingard@lscu.coop">kela.wingard@lscu.coop</a>. </p>
+					  
+					  <p style="font-size: 26px; font-family: 'Geo', sans-serif;"><strong>Help us make the<br>
+						  Newsletter better!<br>
+						  Fill out this <a style="color: #c00000;" href="">Survey</a>.</strong></p>
+					  
+				  </td>
+			  </tr>
+		  </tbody>
+		</table>
+			  
+			   
+				  <table>
+				  	<tbody>
+					  <tr>
+					  <td>
+						  <p style="color: #000; font-size: 14px;line-height: 18px;"><strong style="color: #c55911; font-size: 21px;">CFPB Initiative to 'Save American’s Billions in Junk Fees’</strong><br>
+						  The CFPB recently <a href="https://www.consumerfinance.gov/about-us/newsroom/consumer-financial-protection-bureau-launches-initiative-to-save-americans-billions-in-junk-fees/" target="_blank">announced</a> an initiative to "save households billions of dollars a year by reducing exploitative junk fees charged by financial companies. The Bureau singled out "punitive late fees" of major credit card companies and 2019 bank revenue from overdraft and non-sufficient funds fees.<br><br>
+ 
+The CFPB is interested in hearing about people’s experiences with fees associated with their bank, credit union, prepaid or credit card account, mortgage, loan, or payment transfers, including, unexpected fees for a product or services, fees that seemed too high for the purported service or fees where it was unclear why they were charged.<br><br>
+ 
+The CFPB is also interested in hearing from financial institutions, including small banks and credit unions. Comments on the Bureau's request for information will be accepted through March 31, 2022.<br><br>
+ 
+Click <a href="https://files.consumerfinance.gov/f/documents/cfpb_fees-imposed-by-providers-of-consumer-financial-products-services_rfi_2022-01.pdf">here</a> to read the request for public comment in its entirety.</p>
+					  
+					  <p>David Pace, the Manager of Regulatory Services will be commenting on this letter on behalf of affiliated credit unions. To have your feedback included in the letter, please email <a href="mailto:david.pace@lscu.coop">david.pace@lscu.coop</a> and share your thoughts.</p>
+						  </td>
+					  </tr>
+					  </tbody>
+				  </table>
+				  
+			   
+			  
+	  	<table border="0" cellpadding="3" width="100%">
+				  <tbody>
+					  <tr>
+<!-------------------------- LEFT COLUMN WITH LOCKERS------------------------------>
+				 
+				   <td style="border: 2px solid #c55a11; background: #2e75b5; color: black; vertical-align: top; padding: 5px;">
+					  <img src="https://lscu.coop/images/infosight/lockers.jpg" style="width: 100%;">
+					  <h3 style="color: #c00000;">Fee Based Training</h3>
+					  <p>
+					   <span style="font-size: 32px; vertical-align: middle;">&bull; </span> Vendor Due Diligence Workshop - $79.00 (<a href="" target="_blank" style="color: #c00000;">insert link</a>)<br>
+					   <span style="font-size: 32px; vertical-align: middle;">&bull; </span> FACTA Red Flags<br>
+					   <span style="font-size: 32px; vertical-align: middle;">&bull; </span> S.A.F.E. Act Training - $50.00 (<a href="" target="_blank" style="color: #c00000;">insert link</a>)</p>
+					  
+					  <p>Email <a href="mailto:compliance@lscu.coop" style="color: #c00000;">mailto:compliance@lscu.coop</a> to purchase</p>
+					  
+					  <h3 style="color: #c00000;">Compliance Calendar</h3>
+					   
+					   <p><strong>February</strong><br>
+21st: President's Day - Federal Holiday<br><br>
+
+<strong>March</strong> <br>
+3rd: Compliance Council Meeting (Save the Date)<br>
+31st: <a href="" target="_blank" style="color: #c00000;">CFPB – Credit Card Agreement and Data Submission Requirements: First College Credit Card Marketing Agreements and Data Using "Collect"</a></p>
+					  
+					  <p style="font-size: 26px; font-family: 'Geo', sans-serif;"><strong>Help us make the<br>
+						  Newsletter better!<br>
+						  Fill out this <a style="color: #c00000;" href="">Survey</a>.</strong></p>
+					   
+					   <h3 style="color: #c00000;">LSCU Compliance Council</h3>
+					   <p>Not a member of the <a href="" target="_blank" style="color: blue;">LSCU Compliance Council</a>? Join your peers today for lively discussions and networking on what keeps you up at night and hot regulatory/compliance topics. Also, gain educational insight from presenters on subjects that matter to your credit union!</p>
+					  
+				  </td>
+<!-------------------------- END LEFT COLUMN WITH LOCKERS------------------------------>
+<!---------------------------------------------------------------------------------->
+<!-------------------------- RIGHT COLUMN WITH TEXT------------------------------>				  
+				   <td style="vertical-align: top; width: 60%;">
+					  <p style="color: #000; font-size: 14px; line-height: 18px;"><strong style="color: #c55911; font-size: 21px;">CFPB Posts Lists of Rural or Underserved Counties</strong><br>
+						  The CFPB <a href="https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/rural-and-underserved-counties-list/" target="_blank">posted the lists of rural or underserved counties for use in 2022</a> in connection with exemptions from certain regulatory requirements of the Truth in Lending Act and Regulation Z. Also posted was the Bureau's <a href="https://www.consumerfinance.gov/rural-or-underserved-tool/" target="_blank">Rural or Underserved Areas Tool</a>, which can be used to provide a safe harbor determination that a property is located in a rural or underserved area.
+					 
+</p>
+					  <p style="color: #000; font-size: 14px; line-height: 18px;"><strong style="color: #c55911; font-size: 21px;">Federal Financial Institutions Examination Council Issues Statement of Principles on Examination Information Requests</strong><br>
+						  The Federal Financial Institutions Examination Council on behalf of its members issued a <a href="https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flnks.gd%2Fl%2FeyJhbGciOiJIUzI1NiJ9.eyJidWxsZXRpbl9saW5rX2lkIjoxMDAsInVyaSI6ImJwMjpjbGljayIsImJ1bGxldGluX2lkIjoiMjAyMjAxMjEuNTIxNzUyNzEiLCJ1cmwiOiJodHRwczovL3d3dy5mZmllYy5nb3YvcHJlc3MvcHIwMTIxMjIuaHRtP3V0bV9tZWRpdW09ZW1haWwmdXRtX3NvdXJjZT1OQ1VBZ292ZGVsaXZlcnkifQ.CmpMiwKeimnvnLcQlj-4U1-hU53oD7Y3ETQYyxG7tIw%2Fs%2F1807381232%2Fbr%2F125469512775-l&data=04%7C01%7Ckela.wingard%40lscu.coop%7C773a6abac9b54b836c9108d9dd18bc00%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637783920573952627%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=EfJmOp8s2wfdRq6kwZMv%2BCkKAyO3lFnyNNMb5FHuFog%3D&reserved=0" target="_blank">statement</a> announcing best practices for requesting examination information from supervised entities, and a common authentication solution for secure access to the FFIEC members’ supervision systems.<br><br>
+
+The statement presents the results of the final phase of the Examination Modernization Project in which FFIEC members addressed the feedback provided by supervised entities regarding examination requests and authentication requirements for FFIEC members’ supervision systems.
+
+						 
+					  </p>
+					   
+					    <p style="color: #000; font-size: 14px; line-height: 18px;"><strong style="color: #c55911; font-size: 21px;">FedNow Pricing Estimates Announced</strong><br>
+							The Federal Reserve <a href="https://www.frbservices.org/news/press-releases/012722-fednow-pricing-announcement" target="_blank">announced</a> the anticipated pricing approach for its FedNow Service for instant payments. The 2023 FedNow Service fee schedule to be published later in 2022 is currently expected to include the following fees and other pricing information:<br>
+<span style="font-size: 32px; vertical-align: middle;">&bull; </span> A $25 monthly FedNow Service participation fee for each routing 	transit number (RTN) that enrolls in the service to receive credit 	transfers.<br>
+<span style="font-size: 32px; vertical-align: middle;">&bull; </span> A fee of $0.045 per credit transfer to be paid by its sender, including 		returns.<br>
+<span style="font-size: 32px; vertical-align: middle;">&bull; </span> A fee of $0.01 for a request for payment (RFP) message to be paid by 	the requestor, including both requests for a new payment or funds to be 	returned. A participating financial institution can send an RFP through 	the FedNow Service to another participating financial institution to 	request payment of a bill, invoice or other amount owed by the 	receiving financial institution’s customer.<br><br>
+ 
+The planned FedNow Service’s credit transfer transaction value limit will be $500,000. However, participants will have a default limit of $100,000, with the option to adjust it up or down. The Federal Reserve will evaluate the credit transfer limit on an ongoing basis and adjust as appropriate.
+					   </p>
+				  </td>
+			  </tr>
+				  </tbody>
+			  </table>
+			  <table>
+		  		<tbody>
+				  <tr>
+					<td>
+					    
+					    <p style="color: #000; font-size: 14px; line-height: 18px;"><strong style="color: #c55911; font-size: 21px;">Regulatory Alert (22-RA-01) Home Mortgage Disclosure Act Data Collection Requirements for Calendar Year 2022</strong><br>
+							If your credit union makes residential mortgage loans and meets all four criteria outlined below, you must comply with the Consumer Financial Protection Bureau’s Regulation C, which implements the Home Mortgage Disclosure Act (HMDA). Click <a href="https://www.ncua.gov/regulation-supervision/letters-credit-unions-other-guidance/home-mortgage-disclosure-act-data-collection-requirements-calendar-year-2022" target="_blank">here</a> to review HMDA expectations.<br><br>
+
+Regulation C requires you to collect HMDA data associated with mortgage loan applications processed during 2022, if:<br>
+<span style="font-size: 32px; vertical-align: middle;">&bull; </span> Your credit union’s total assets as of December 31, 2021, exceeded $50 million;<br>
+<span style="font-size: 32px; vertical-align: middle;">&bull; </span> Your credit union had a home or branch office in a Metropolitan Statistical Area on December 31, 2021;<br>
+<span style="font-size: 32px; vertical-align: middle;">&bull; </span> Your credit union originated at least one home purchase loan (other than temporary financing such as a construction loan) or refinanced a home purchase loan, secured by a first lien on a one-to-four unit dwelling during 2021; and<br>
+<span style="font-size: 32px; vertical-align: middle;">&bull; </span> Your credit union originated at least 100 covered closed-end mortgage loans in each of the two preceding calendar years (2020 and 2021) or at least 200 covered open-end lines of credit in each of the two preceding calendar years (2020 and 2021).
+					   </p>
+					   
+					   <p style="color: #000; font-size: 14px; line-height: 18px;"><strong style="color: #c55911; font-size: 21px;">CUNA Provides Fourth-Quarter 2021 Update to the MLA Credit Card Fee Comparison Spreadsheet</strong><br>
+						   The <a href="https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Fsend.cuna.org%2Flink.cfm%3Fr%3DCcc75G-X91I82xN-3xraSg~~%26pe%3DHsOaFGPErmle_Y9V6ryVRIEzOH_0rWaof3m7vGrtKZUZGdgtUyQdd4nZokqa99TLGT2SlgNUbf-k9Ekmoy6UPg~~%26t%3DMuzbyuwTEW1rP4MbWZlAhQ~~&data=04%7C01%7Ckela.wingard%40lscu.coop%7C9f2dd97743824fde242208d9df4428ec%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C1%7C637786306131093957%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000&sdata=CBTo5%2F435OxVE6kVMfXedZvwmV3LifsFz2Tpzr2D964%3D&reserved=0" target="_blank">fourth-quarter 2021 update</a> to the credit card MLA Fee Comparison Spreadsheet is now available.<br><br>
+
+The recently updated fourth-quarter 2021 fee comparison spreadsheet has been uploaded in CUNA’s Compliance Community in the CUNA Compliance Tool folder in the file share library. You will also find the previous spreadsheets dated back to 2017. <br><br>
+						   
+						   <span style="color: #c55911; font-size: 21px; text-align: center; display: block;"><strong>Question and Answer</strong></span><br>
+							   <strong>Q:</strong> If a husband and wife are joint on an account, and the husband deposits $11,000 in cash to the account, do I include the wife on the CTR?<br>
+
+
+							   <strong>A:</strong> Yes, as a joint owner on the account, she would be considered benefiting from the transaction.<br><br>
+
+
+							   <strong>Q:</strong> If a husband and wife are joint on an account and each come in separately and deposit $6,000 cash on the same day, do I need to file a CTR?<br><br>
+
+
+							   <strong>A:</strong> Yes, this is both a multiple persons and multiple transactions CTR.  Since both husband and wife are joint on the account, they would benefit from any deposits into the account and multiple cash deposits are aggregated together.<br><br>
+
+
+							   <strong>Q:</strong> If a husband and wife have separate deposit accounts and the husband and wife each take out $6,000 in cash on the same day, is a CTR required?<br><br>
+
+
+							   <strong>A:</strong> CTR’s are required if the credit union processes currency transactions greater than $10,000 that was performed by, of, or for the benefit of one person.  In this case a CTR may not be required unless you know the husband or wife is making the withdrawal for the other.  It is also possible they are attempting to structure the transaction to avoid the reporting requirements.  If this is a pattern of behavior and not a 1-time occurrence, then a SAR is advisable.<br><br>
+
+
+							   <strong>Q:</strong> If the husband makes a deposit of $4,000 cash to his individual account, and later in the same day his wife makes a $6,500 cash deposit to their joint account, do we file a CTR?<br><br>
+
+							   <strong>A:</strong> Yes. The transactions must be aggregated if they are by or on behalf of the same person and the credit union has knowledge of them. Deposits to joint accounts are considered to be on behalf of all the owners of the account.  In this case it would be both a multiple person and multiple transactions CTR.
+						   
+					   </p>
+					   
+					   <p style="color: #000; font-size: 14px; line-height: 18px;"><strong style="color: #c55911; font-size: 21px;">Pending Regulatory Requests for Comment</strong><br>
+						   As part of your advocacy team, making sure your voice is heard on important issues is one of our main goals. David Pace, Manager of Regulatory Advocacy with LSCU and part of our compliance team, will be commenting on some pending regulatory proposals. If you would like to discuss any of the proposals still open for comment listed below, please contact David at <a href="mailto:David.Pace@lscu.coop">David.Pace@lscu.coop</a>. Please visit our <a href="https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.pardot.com%2Fe%2F513811%2Flications-rrcl-index-new-php3f%2F3s7lxfk%2F701383896%3Fh%3DIXrwLoSZTJEg8XKTnclhPLdSCiJE_UuiozvSz2M9u9M&data=02%7C01%7Ckela.wingard%40lscu.coop%7C1dd02ae1db78419ba8f908d812e30d2a%7C35d0fbd62b1c432a96dbbeb69180cfc3%7C1%7C0%7C637280113676472768&sdata=K02zQ3LRDOU3O4j5wOWi2J%2FsiBwT1mzQjb8S4NWVP%2FU%3D&reserved=0" target="_blank">site</a> to review other comment letters LSCU has submitted on behalf of credit unions.<br><br>
+
+LSCU Now Soliciting Input on Proposals <br><br>
+
+For more information regarding the proposals below, please follow the staff contact links:<br>
+<img src="https://lscu.coop/images/infosight/beta.png" style="text-align: center;"><br><br>
+						   
+						   <strong>Bookmark InfoSight</strong><br>
+To access InfoSight directly, add the following link to your bookmarks:  <a href="https://lscu.leagueinfosight.com/" target="_blank">https://lscu.leagueinfosight.com/</a><br><br>
+ 
+<strong>Need Compliance Help</strong><br>
+LSCU has certified Compliance Consultants that can help. Contact <a href="mailto:compliance@lscu.coop">compliance@lscu.coop</a> for more information.<br><br>
+
+<strong>New Topic Added to “Tax Issues” InfoSight Channel </strong><br>
+Based on user feedback, recently a new topic titled “<a href="https://lscu.leagueinfosight.com/tax-issues/individual-taxpayer-identification-number-itin" target="_blank">Individual Taxpayer Identification Number</a> (ITIN)”, was added under the Tax Issues channel. This topic provides a summary and resources to assist credit unions with the requirements associated with an ITIN.  <br><br>
+
+Click <a href="https://lscu.leagueinfosight.com/" target="_blank">here</a> to see what InfoSight has to offer. Don’t have log in credentials <a href="https://oss8.lscu.coop/oss8/signup.php" target="_blank">click</a> here to get access. 					   
+						   
+					   </p>
+					  </td>
+					</tr>
+				  </tbody>
+		  </table>
+            
+			   
+                  </td>
+            </tr>
+          </tbody>
+      </table></td>
+    </tr>
+  </tbody>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="100" width="800">
+	<tbody>
+		<tr>
+			<td align="center" style="font-color: #090909; font-size: 12px; font-family: 'Source Sans Pro', arial, 'times new roman', sans-serif; line-height: 14px; line-height: 18px;" class=""><p align="center"><a data-fontcolor="1" target="_blank"><br>
+<span style="font-size:10px;">This email was sent to&nbsp;</span></a><span style="font-size:10px;">{{Recipient.Email}}&nbsp;<a data-fontcolor="1" target="_blank">because you are subscribed to our emailing list.</a><br>
+<br>
+You can visit our website to <a href="{{EmailPreferenceCenter}}">update your subscription preferences</a>.</span><br>
+&nbsp;</p></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
